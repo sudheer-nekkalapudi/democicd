@@ -27,7 +27,7 @@ jobs:
       - name: Make Maven Wrapper executable
         run: chmod +x mvnw
 
-      # 4. Build Spring Boot JAR
+      # 4. Build Spring Boot JAR 
       - name: Build Jar
         run: ./mvnw clean package -DskipTests
 
